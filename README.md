@@ -10,7 +10,7 @@ A modern, responsive **Crypto Tracker** app built with **React**, **Redux Toolki
 
 <!-- Add your screenshots here -->
 <p align="center">
-  <img src="./public/project_demo.png" alt="Crypto Tracker Homepage" width="600" />
+  <img src="./public/project view.png" alt="Crypto Tracker Homepage" width="600" />
 </p>
 
 ## ✨ Features
