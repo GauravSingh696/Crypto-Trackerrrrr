@@ -1,54 +1,52 @@
-# React + TypeScript + Vite
+# 🪙 Real-Time Crypto Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **Crypto Tracker** app built with **React**, **Redux Toolkit**, **TypeScript**, and **Tailwind CSS**. Track cryptocurrency prices with a sleek UI and real-time updates using simulated WebSocket data. Hosted on **Netlify**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [View Project on Netlify](https://your-netlify-link.netlify.app)
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<!-- Add your screenshots here -->
+<p align="center">
+  <img src="./public/project_demo.png" alt="Crypto Tracker Homepage" width="600" />
+</p>
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## ✨ Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- 📈 **Real-Time Price Tracking** (via simulated WebSocket updates)
+- 🔍 **Search & Filter** cryptocurrencies easily
+- 📱 **Responsive Design** for all screen sizes
+- 🧠 **State Management** using Redux Toolkit
+- 💻 **TypeScript** for type safety
+- 🎨 **Tailwind CSS** for fast, modern styling
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Tech Stack
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **Frontend**: React, TypeScript
+- **State Management**: Redux Toolkit
+- **Styling**: Tailwind CSS
+- **Hosting**: Netlify
+
+## 📂 Folder Structure
+
+crypto-tracker <br>
+├── public/<br>
+├── src/ <br>
+│ ├── assets/ <br>
+│ ├── components/ <br>
+│ ├── features/ <br>
+│ ├── redux/ <br>
+│ ├── App.tsx <br>
+│ └── main.tsx <br>
+├── tailwind.config.js <br>
+└── package.json <br>
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/crypto-tracker.git
+cd crypto-tracker
+npm install
+npm run dev
